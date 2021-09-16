@@ -14,6 +14,10 @@
 		F1603D1026D72736000C7EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1603D0E26D72736000C7EA4 /* LaunchScreen.storyboard */; };
 		F1603D1B26D72736000C7EA4 /* ChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1603D1A26D72736000C7EA4 /* ChainTests.swift */; };
 		F1603D2626D72736000C7EA4 /* ChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1603D2526D72736000C7EA4 /* ChainUITests.swift */; };
+		F171C6B426F3D78200A3826E /* SalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171C6B326F3D78200A3826E /* SalesView.swift */; };
+		F171C6B826F3D99200A3826E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171C6B726F3D99200A3826E /* DashboardView.swift */; };
+		F171C6C126F3DB8F00A3826E /* SaleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171C6BF26F3DB8F00A3826E /* SaleViewCell.swift */; };
+		F171C6C226F3DB8F00A3826E /* SaleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F171C6C026F3DB8F00A3826E /* SaleViewCell.xib */; };
 		F1927AAF26E9C6C90074AE8D /* Services in Resources */ = {isa = PBXBuildFile; fileRef = F1927AAE26E9C6C90074AE8D /* Services */; };
 		F1927AB726E9C7E70074AE8D /* Models in Resources */ = {isa = PBXBuildFile; fileRef = F1927AB626E9C7E70074AE8D /* Models */; };
 		F1927AB926E9C8030074AE8D /* Network in Resources */ = {isa = PBXBuildFile; fileRef = F1927AB826E9C8030074AE8D /* Network */; };
@@ -52,6 +56,10 @@
 		F1603D2126D72736000C7EA4 /* ChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1603D2526D72736000C7EA4 /* ChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainUITests.swift; sourceTree = "<group>"; };
 		F1603D2726D72736000C7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F171C6B326F3D78200A3826E /* SalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesView.swift; sourceTree = "<group>"; };
+		F171C6B726F3D99200A3826E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F171C6BF26F3DB8F00A3826E /* SaleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewCell.swift; sourceTree = "<group>"; };
+		F171C6C026F3DB8F00A3826E /* SaleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaleViewCell.xib; sourceTree = "<group>"; };
 		F1927AAE26E9C6C90074AE8D /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 		F1927AB626E9C7E70074AE8D /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		F1927AB826E9C8030074AE8D /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
@@ -146,6 +154,10 @@
 		F1927AB426E9C74B0074AE8D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F171C6B326F3D78200A3826E /* SalesView.swift */,
+				F171C6B726F3D99200A3826E /* DashboardView.swift */,
+				F171C6BF26F3DB8F00A3826E /* SaleViewCell.swift */,
+				F171C6C026F3DB8F00A3826E /* SaleViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1927AB726E9C7E70074AE8D /* Models in Resources */,
+				F171C6C226F3DB8F00A3826E /* SaleViewCell.xib in Resources */,
 				F1927AAF26E9C6C90074AE8D /* Services in Resources */,
 				F1927ABD26E9C96B0074AE8D /* Extensions in Resources */,
 				F1603D1026D72736000C7EA4 /* LaunchScreen.storyboard in Resources */,
@@ -299,6 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1927ABF26E9C9930074AE8D /* AppDelegate.swift in Sources */,
+				F171C6B826F3D99200A3826E /* DashboardView.swift in Sources */,
+				F171C6B426F3D78200A3826E /* SalesView.swift in Sources */,
+				F171C6C126F3DB8F00A3826E /* SaleViewCell.swift in Sources */,
 				F1603D0826D72732000C7EA4 /* ViewController.swift in Sources */,
 				F1603D0626D72732000C7EA4 /* SceneDelegate.swift in Sources */,
 			);
