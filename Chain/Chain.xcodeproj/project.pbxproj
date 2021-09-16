@@ -23,6 +23,14 @@
 		F1927AB926E9C8030074AE8D /* Network in Resources */ = {isa = PBXBuildFile; fileRef = F1927AB826E9C8030074AE8D /* Network */; };
 		F1927ABD26E9C96B0074AE8D /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = F1927ABC26E9C96B0074AE8D /* Extensions */; };
 		F1927ABF26E9C9930074AE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1927ABE26E9C9930074AE8D /* AppDelegate.swift */; };
+		F1D5E41526F3F79900BACDA4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41426F3F79900BACDA4 /* WelcomeViewController.swift */; };
+		F1D5E41726F3F95E00BACDA4 /* CreateSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41626F3F95E00BACDA4 /* CreateSaleViewController.swift */; };
+		F1D5E41926F3FC2300BACDA4 /* SaleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41826F3FC2300BACDA4 /* SaleCollectionViewController.swift */; };
+		F1D5E41B26F3FD1400BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41A26F3FD1400BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSource.swift */; };
+		F1D5E41D26F3FF8600BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41C26F3FF8600BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift */; };
+		F1D5E41F26F4009900BACDA4 /* SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E41E26F4009900BACDA4 /* SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift */; };
+		F1D5E42426F4034900BACDA4 /* SaleInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5E42226F4034900BACDA4 /* SaleInputViewController.swift */; };
+		F1D5E42526F4034900BACDA4 /* SaleInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D5E42326F4034900BACDA4 /* SaleInputViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,14 @@
 		F1927AB826E9C8030074AE8D /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
 		F1927ABC26E9C96B0074AE8D /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
 		F1927ABE26E9C9930074AE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D5E41426F3F79900BACDA4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F1D5E41626F3F95E00BACDA4 /* CreateSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSaleViewController.swift; sourceTree = "<group>"; };
+		F1D5E41826F3FC2300BACDA4 /* SaleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewController.swift; sourceTree = "<group>"; };
+		F1D5E41A26F3FD1400BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewControllerUICollectionViewDataSource.swift; sourceTree = "<group>"; };
+		F1D5E41C26F3FF8600BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift; sourceTree = "<group>"; };
+		F1D5E41E26F4009900BACDA4 /* SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
+		F1D5E42226F4034900BACDA4 /* SaleInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleInputViewController.swift; sourceTree = "<group>"; };
+		F1D5E42326F4034900BACDA4 /* SaleInputViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaleInputViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +181,14 @@
 		F1927AB526E9C7620074AE8D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F1D5E41426F3F79900BACDA4 /* WelcomeViewController.swift */,
+				F1D5E41626F3F95E00BACDA4 /* CreateSaleViewController.swift */,
+				F1D5E41826F3FC2300BACDA4 /* SaleCollectionViewController.swift */,
+				F1D5E41A26F3FD1400BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSource.swift */,
+				F1D5E41C26F3FF8600BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift */,
+				F1D5E41E26F4009900BACDA4 /* SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift */,
+				F1D5E42226F4034900BACDA4 /* SaleInputViewController.swift */,
+				F1D5E42326F4034900BACDA4 /* SaleInputViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -286,6 +310,7 @@
 				F1603D1026D72736000C7EA4 /* LaunchScreen.storyboard in Resources */,
 				F1927AB926E9C8030074AE8D /* Network in Resources */,
 				F1603D0D26D72736000C7EA4 /* Assets.xcassets in Resources */,
+				F1D5E42526F4034900BACDA4 /* SaleInputViewController.xib in Resources */,
 				F1603D0B26D72732000C7EA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,11 +337,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1927ABF26E9C9930074AE8D /* AppDelegate.swift in Sources */,
+				F1D5E41926F3FC2300BACDA4 /* SaleCollectionViewController.swift in Sources */,
+				F1D5E41D26F3FF8600BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSourcePrefetching.swift in Sources */,
+				F1D5E41726F3F95E00BACDA4 /* CreateSaleViewController.swift in Sources */,
 				F171C6B826F3D99200A3826E /* DashboardView.swift in Sources */,
+				F1D5E41F26F4009900BACDA4 /* SaleCollectionViewControllerUICollectionViewDelegateFlowLayout.swift in Sources */,
+				F1D5E42426F4034900BACDA4 /* SaleInputViewController.swift in Sources */,
 				F171C6B426F3D78200A3826E /* SalesView.swift in Sources */,
+				F1D5E41B26F3FD1400BACDA4 /* SaleCollectionViewControllerUICollectionViewDataSource.swift in Sources */,
 				F171C6C126F3DB8F00A3826E /* SaleViewCell.swift in Sources */,
 				F1603D0826D72732000C7EA4 /* ViewController.swift in Sources */,
 				F1603D0626D72732000C7EA4 /* SceneDelegate.swift in Sources */,
+				F1D5E41526F3F79900BACDA4 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
