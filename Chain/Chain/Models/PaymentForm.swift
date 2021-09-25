@@ -8,3 +8,8 @@
 //  Copyright © 2021 YocelinGR . All rights reserved.
 //
 
+struct PaymentForm {
+    let code: String
+    let paymentType: String
+    let usesBank: Bool
+}

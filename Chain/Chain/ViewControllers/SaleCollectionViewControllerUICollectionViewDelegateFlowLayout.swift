@@ -7,6 +7,4 @@
 
 import UIKit
 
-extension SaleCollectionViewController: UICollectionViewDelegateFlowLayout {
-
-}
+extension SaleCollectionViewController: UICollectionViewDelegateFlowLayout {}

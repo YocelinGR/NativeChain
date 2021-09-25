@@ -17,7 +17,7 @@ struct HttpResponse {
     }
 
     var status: StatusCode {
-        return StatusCode(rawValue: httpUrlResponse.statusCode)
+        StatusCode(rawValue: httpUrlResponse.statusCode)
     }
 
     func result(for data: Data?) -> Result<Data?, Error> {
