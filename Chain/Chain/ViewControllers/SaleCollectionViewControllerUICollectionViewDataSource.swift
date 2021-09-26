@@ -7,12 +7,12 @@
 
 import UIKit
 
-extension SaleCollectionViewController: UICollectionViewDataSource {
-    func collectionView(_: UICollectionView, numberOfItemsInSection _: Int) -> Int {
-        <#code#>
-    }
+/* extension SaleCollectionViewController: UICollectionViewDataSource {
+     func collectionView(_: UICollectionView, numberOfItemsInSection _: Int) -> Int {
+         <#code#>
+     }
 
-    func collectionView(_: UICollectionView, cellForItemAt _: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
-}
+     func collectionView(_: UICollectionView, cellForItemAt _: IndexPath) -> UICollectionViewCell {
+         <#code#>
+     }
+ }*/
